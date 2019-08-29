@@ -1,0 +1,180 @@
+#%%
+books = open('booklist.txt', 'r')
+
+booklist = []
+
+# create the booklist
+
+for line in books:
+    book = line.split(',')
+    booklist.append(book)
+
+
+peopleDict = {}
+nameList = []
+ratingList = []
+
+# create the namelist and ratingList
+
+
+peopleRating = open('ratings.txt', 'r')
+for line in peopleRating:
+    if len(line) > 30:
+        ratingList.append(line)
+    else:
+        nameList.append(line)
+
+# create the peopleDict
+
+h = 0
+bookRatings = {}
+positiveRatingsDict = {}
+# print(ratingList[0].split()[1])
+# while h < len(booklist) :
+#     bookName = booklist[h][0] + ', ' + booklist[h][1]
+#     # print(bookName)
+#     j = 0
+#     while j < len(ratingList[j].split()) :
+#         if int(ratingList[j].split()[h]) > 0:
+#             bookRatings[bookName] = ratingList[j].split()[h]
+        
+#         # print(bookRatings)
+#         k = 0
+#         while k < len(nameList):
+#             peopleRatingsDict[nameList[k].lower()] = bookRatings
+#             k +=1
+           
+#         j += 1
+#     # print(peopleDict[nameList[i]])
+#     h += 1
+# print(nameList)
+# print(booklist)
+# print(ratingList)
+while h < len(nameList) :
+    personName = nameList[h]
+    # print(bookName)
+    k = 0
+    while k < len(booklist):
+        bookName = booklist[k][0] + ', ' + booklist[k][1]
+        bookRatingList = ratingList[h].split()
+        bookRating = bookRatingList[k]
+        if int(bookRating) > 0:
+            # print(bookName, bookRating)
+            bookRatings[bookName] = bookRating
+            print(bookRatings)
+        k +=1
+    positiveRatingsDict[personName.lower()] = bookRatings
+    # print(peopleDict[nameList[i]])
+    h += 1
+
+# print(positiveRatingsDict['joe\n'])
+
+
+
+i = 0
+
+while i < len(nameList):
+    peopleDict[nameList[i]] = ratingList[i].split()
+    i += 1
+
+
+def friends(name, nfriends = 2):
+    nameRatings = peopleDict[name + '\n']
+    matchStrength = {}
+    for key in peopleDict:
+        if key.lower() != name.lower() + '\n':
+            otherPerson = peopleDict[key]
+            j = 0
+            matchNum = 0
+            while j < len(nameRatings) - 1:
+                matchNum += int(nameRatings[j]) * int(otherPerson[j])
+                j +=1
+            matchStrength[matchNum] = key.lower()
+    orderedMatchStrength = sorted(matchStrength.items())
+    k = 0
+    friendsTuple = orderedMatchStrength[-int(nfriends):]
+    friendsList = []
+    while k < len(friendsTuple):
+        friendsList.extend([friendsTuple[k][1].lower()])
+        k += 1
+    friendsList.sort()
+    return(friendsList)
+
+def reccomend(name, nfriends = 2) :
+    names = friends(name, nfriends)
+    # print('names: ', names)
+    i = 0
+    while i <= nfriends - 1 :
+        friendsBooks = positiveRatingsDict[names[i]]
+        # print(names[i], friendsBooks)
+        i += 1
+
+reccomend("Megan")
+
+
+
+
+
+
+
+
+# const bookList = [['Book 1', 'some Author'], ['Book 2', 'some Author'], ['Book 3', 'some Author']];
+
+# const ratingList = [[0, 3, 5], [3, 0, 5]];
+
+# const nameList = ['Preston', 'Blake'];
+
+# function getRatings() {
+# 	let personIndex = 0;
+# 	const returnObj = {};
+# 	while (personIndex < nameList.length) {
+# 		const personName = nameList[personIndex];
+# 		const ratings = ratingList[personIndex];
+
+# 		let bookIndex = 0;
+# 		while (bookIndex < bookList.length) {
+# 			const book = bookList[bookIndex];
+# 			const bookName = `${book[0]}, ${book[1]}`;
+# 			const rating = ratings[bookIndex];
+
+# 			if (rating > 0) {
+# 				if (!returnObj[personName]) {
+# 					returnObj[personName] = {};
+# 				}
+
+# 				returnObj[personName][bookName] = rating;
+# 			}
+
+# 			bookIndex += 1;
+# 		}
+
+# 		personIndex += 1;
+# 	}
+
+# 	return returnObj;
+# }
+
+# const ratingsObj = getRatings();
+# console.log(JSON.stringify(ratingsObj, null, 2));
+
+# /*
+# Desired Output
+
+# Is the book array correct? Why are the elements in the book array arrays themselves?
+# Oh, I just looked at mine, I'll fix it
+# 👍
+
+# {
+# 	"Preston": {
+# 		"Book 2, some Author": 3,
+# 		"Book 3, some Author": 5,
+# 	}, 
+# 	"Blake" : {
+# 		"Book 1, some Author": 3,
+# 		"Book 3, some Author": 5
+# 	}
+# }
+
+# */
+
+
