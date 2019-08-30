@@ -87,7 +87,7 @@ while i < len(nameList):
 
 
 def friends(name, nfriends = 2):
-    nameRatings = peopleDict[name + '\n']
+    nameRatings = peopleDict[name]
     matchStrength = {}
     for key in peopleDict:
         if key.lower() != name.lower() + '\n':
@@ -108,8 +108,11 @@ def friends(name, nfriends = 2):
     friendsList.sort()
     return(friendsList)
 
+compiledRecommendations = {}
+friendsNames = {}
 def recommend(name, nfriends = 2) :
     names = friends(name, nfriends)
+    friendsNames[name] = names
     # print('names: ', names)
     i = 0
     otherUsersBooks = []
@@ -117,7 +120,7 @@ def recommend(name, nfriends = 2) :
     while i <= nfriends - 1 :
         
         friendsBooks = positiveRatingsDict[names[i]]
-        userBooks.extend(positiveRatingsDict[name.lower() + '\n'])
+        userBooks.extend(positiveRatingsDict[name.lower()])
         i += 1
         otherUsersBooks.extend(sorted(friendsBooks))
     
@@ -134,20 +137,14 @@ def recommend(name, nfriends = 2) :
         i+=1
 
     sortedRecommendedBooks = sorted(recommendedBooks, key=lambda x: x[0].split()[-1])
+    compiledRecommendations[name] = sortedRecommendedBooks
 
-    outputLine1 = Template('$name: $friends \n')
-
-    output = open('recommendations.txt', 'w')
-
-    output.write(outputLine1.substitute(name=name, friends=names))
+    # output.write(outputLine1.substitute(name=name, friends=names))
     
-    outputBookLine = Template('$bookline \n') 
+    # outputBookLine = Template('$bookline \n') 
 
-    # print(recommendedBooks)
-    print(sortedRecommendedBooks)
-
-    for line in sortedRecommendedBooks:
-        output.write(outputBookLine.substitute(bookline=line))
+    # for line in sortedRecommendedBooks:
+    #     output.write(outputBookLine.substitute(bookline=line))
 
     # print('mine', userBooks)
     # for friendsBook in friendsBooks:
@@ -157,10 +154,18 @@ def recommend(name, nfriends = 2) :
     # print(name, userBooks)
 
 
-def main() :
+def main(nfriends = 2) :
+    output = open('recommendations.txt', 'w')
     for name in nameList:
-        print(name)
-        recommend(name)
+        recommend(name, nfriends)
+        outputLine1 = Template('$name: $friends \n')
+        output.write(outputLine1.substitute(name=name[:-1], friends=friendsNames[name]))
+        outputBookLine = Template('$bookline \n')
+        for book in compiledRecommendations[name]: 
+            output.write(outputBookLine.substitute(bookline=book))  
+        output.write('\n')
+    print(compiledRecommendations)
 
 
-main()
+main(3)
+# recommend(SubRia)
