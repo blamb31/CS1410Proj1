@@ -124,17 +124,28 @@ def recommend(name, nfriends = 2) :
     recommendedBooks = []
     i = 0
     while i < len(otherUsersBooks):
-        print(otherUsersBooks[i])
+        # print(otherUsersBooks[i])
         selectedBook = otherUsersBooks[i]
         if selectedBook not in userBooks:
-            recommendedBooks.extend((selectedBook.split(',')))
+            recommendedBooks.append(tuple(selectedBook.split(',')))
         i+=1
-    
-    outputLine1 = Template('$name: $friends')
+
+    sortedRecommendedBooks = sorted(recommendedBooks, key=lambda x: x[0].split()[-1])
+
+    outputLine1 = Template('$name: $friends \n')
 
     output = open('recommendations.txt', 'w')
 
-    output.writelines(outputLine1.substitute(name=name, friends=names))    # print('mine', userBooks)
+    output.write(outputLine1.substitute(name=name, friends=names))
+    
+    outputBookLine = Template('$bookline \n') 
+
+    # print(recommendedBooks)
+
+    for line in sortedRecommendedBooks:
+        output.write(outputBookLine.substitute(bookline=line))
+
+    # print('mine', userBooks)
     # for friendsBook in friendsBooks:
     #     print(friendsBook)
     #     for userBook in userBooks:

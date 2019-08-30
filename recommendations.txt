@@ -1,1 +1,16 @@
-Albus Dumbledore: ['joshua\n', 'tiffany\n']
+Albus Dumbledore: ['joshua\n', 'tiffany\n'] 
+('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
+('Dan Brown', ' The Da Vinci Code\n') 
+('F. Scott Fitzgerald', ' The Great Gatsby\n') 
+('Cornelia Funke', ' Inkheart\n') 
+('William Goldman', ' The Princess Bride\n') 
+('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
+('Gary Paulsen', ' Hatchet\n') 
+('Jodi Picoult', " My Sister's Keeper\n") 
+('Philip Pullman', ' The Golden Compass\n') 
+('Louis Sachar', ' Holes\n') 
+('J R R Tolkien', ' The Hobbit\n') 
+('J R R Tolkien', ' The Lord of the Rings\n') 
+('Eric Walters', ' Shattered\n') 
+('H G Wells', ' The War Of The Worlds\n') 
+('John Wyndham', ' The Chrysalids') 
