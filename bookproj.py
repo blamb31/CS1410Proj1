@@ -1,4 +1,7 @@
 #%%
+
+from string import Template
+
 books = open('booklist.txt', 'r')
 
 booklist = []
@@ -27,7 +30,6 @@ for line in peopleRating:
 # create the peopleDict
 
 h = 0
-bookRatings = {}
 positiveRatingsDict = {}
 # print(ratingList[0].split()[1])
 # while h < len(booklist) :
@@ -54,16 +56,22 @@ while h < len(nameList) :
     personName = nameList[h]
     # print(bookName)
     k = 0
+    bookRatingList = ratingList[h].split()
+    bookRatings = {}
+    # print(bookRatingList)
     while k < len(booklist):
         bookName = booklist[k][0] + ', ' + booklist[k][1]
-        bookRatingList = ratingList[h].split()
         bookRating = bookRatingList[k]
-        if int(bookRating) > 0:
+        # print(bookRating)
+        if int(bookRating) > 2:
             # print(bookName, bookRating)
             bookRatings[bookName] = bookRating
-            print(bookRatings)
+            positiveRatingsDict[personName.lower()] = bookRatings
+            # print(bookName, bookRatings[bookName])
+            # print(bookRatings)
         k +=1
-    positiveRatingsDict[personName.lower()] = bookRatings
+    # positiveRatingsDict[personName.lower()] = bookRatings
+    # print(personName.lower(), positiveRatingsDict[personName.lower()])
     # print(peopleDict[nameList[i]])
     h += 1
 
@@ -100,16 +108,40 @@ def friends(name, nfriends = 2):
     friendsList.sort()
     return(friendsList)
 
-def reccomend(name, nfriends = 2) :
+def recommend(name, nfriends = 2) :
     names = friends(name, nfriends)
     # print('names: ', names)
     i = 0
+    otherUsersBooks = []
+    userBooks = []
     while i <= nfriends - 1 :
+        
         friendsBooks = positiveRatingsDict[names[i]]
-        # print(names[i], friendsBooks)
+        userBooks.extend(positiveRatingsDict[name.lower() + '\n'])
         i += 1
+        otherUsersBooks.extend(sorted(friendsBooks))
+    
+    recommendedBooks = []
+    i = 0
+    while i < len(otherUsersBooks):
+        print(otherUsersBooks[i])
+        selectedBook = otherUsersBooks[i]
+        if selectedBook not in userBooks:
+            recommendedBooks.extend((selectedBook.split(',')))
+        i+=1
+    
+    outputLine1 = Template('$name: $friends')
 
-reccomend("Megan")
+    output = open('recommendations.txt', 'w')
+
+    output.writelines(outputLine1.substitute(name=name, friends=names))    # print('mine', userBooks)
+    # for friendsBook in friendsBooks:
+    #     print(friendsBook)
+    #     for userBook in userBooks:
+
+    # print(name, userBooks)
+
+recommend("Albus Dumbledore")
 
 
 
