@@ -126,7 +126,10 @@ def recommend(name, nfriends = 2) :
     while i < len(otherUsersBooks):
         # print(otherUsersBooks[i])
         selectedBook = otherUsersBooks[i]
-        if selectedBook not in userBooks:
+        # print(tuple(selectedBook.split(',')))
+        # print(userBooks)
+        # print(recommendedBooks)
+        if selectedBook not in userBooks and tuple(selectedBook.split(',')) not in recommendedBooks:
             recommendedBooks.append(tuple(selectedBook.split(',')))
         i+=1
 
@@ -141,6 +144,7 @@ def recommend(name, nfriends = 2) :
     outputBookLine = Template('$bookline \n') 
 
     # print(recommendedBooks)
+    print(sortedRecommendedBooks)
 
     for line in sortedRecommendedBooks:
         output.write(outputBookLine.substitute(bookline=line))
@@ -152,72 +156,11 @@ def recommend(name, nfriends = 2) :
 
     # print(name, userBooks)
 
-recommend("Albus Dumbledore")
+
+def main() :
+    for name in nameList:
+        print(name)
+        recommend(name)
 
 
-
-
-
-
-
-
-# const bookList = [['Book 1', 'some Author'], ['Book 2', 'some Author'], ['Book 3', 'some Author']];
-
-# const ratingList = [[0, 3, 5], [3, 0, 5]];
-
-# const nameList = ['Preston', 'Blake'];
-
-# function getRatings() {
-# 	let personIndex = 0;
-# 	const returnObj = {};
-# 	while (personIndex < nameList.length) {
-# 		const personName = nameList[personIndex];
-# 		const ratings = ratingList[personIndex];
-
-# 		let bookIndex = 0;
-# 		while (bookIndex < bookList.length) {
-# 			const book = bookList[bookIndex];
-# 			const bookName = `${book[0]}, ${book[1]}`;
-# 			const rating = ratings[bookIndex];
-
-# 			if (rating > 0) {
-# 				if (!returnObj[personName]) {
-# 					returnObj[personName] = {};
-# 				}
-
-# 				returnObj[personName][bookName] = rating;
-# 			}
-
-# 			bookIndex += 1;
-# 		}
-
-# 		personIndex += 1;
-# 	}
-
-# 	return returnObj;
-# }
-
-# const ratingsObj = getRatings();
-# console.log(JSON.stringify(ratingsObj, null, 2));
-
-# /*
-# Desired Output
-
-# Is the book array correct? Why are the elements in the book array arrays themselves?
-# Oh, I just looked at mine, I'll fix it
-# 👍
-
-# {
-# 	"Preston": {
-# 		"Book 2, some Author": 3,
-# 		"Book 3, some Author": 5,
-# 	}, 
-# 	"Blake" : {
-# 		"Book 1, some Author": 3,
-# 		"Book 3, some Author": 5
-# 	}
-# }
-
-# */
-
-
+main()
