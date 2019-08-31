@@ -1,79 +1,52 @@
-Ben: ['ben\n', 'claire\n', 'tiffany\n'] 
-('Richard Adams', ' Watership Down\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
+Ben: ['ben\n', 'tiffany\n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
-('Garth Nix', ' Sabriel\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Moose: ['andrew\n', 'megan\n', 'moose\n'] 
+Moose: ['andrew\n', 'moose\n'] 
 ('Maya Angelou', ' I Know Why the Caged Bird Sings\n') 
-('Dan Brown', ' The Da Vinci Code\n') 
-('William Goldman', ' The Princess Bride\n') 
 ('Daniel Keyes', ' Flowers For Algernon\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Yann Martel', ' Life of Pi\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
-('Christopher Paolini', ' Eragon\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
-('Louis Sachar', ' Holes\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
 
-Reuven: ['ben\n', 'reuven\n', 'tiffany\n'] 
-('Dan Brown', ' The Da Vinci Code\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
+Reuven: ['ben\n', 'reuven\n'] 
 ('John Flanagan', " Ranger's Apprentice Series\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Goldman', ' The Princess Bride\n') 
 ('Will Hobbs', ' Far North\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Christopher Paolini', ' Eragon\n') 
-('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Louis Sachar', ' Holes\n') 
 ('Neil Shusterman', ' The Shadow Club\n') 
 ('Jeff Smith', ' Bone Series\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
 ('Eric Walters', ' Shattered\n') 
 ('Patricia C. Wrede', ' Dealing with Dragons\n') 
 
-Cust1: ['francois\n', 'megan\n', 'mike williams\n'] 
-('Suzanne Collins', ' The Hunger Games\n') 
+Cust1: ['francois\n', 'megan\n'] 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Louis Sachar', ' Holes\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Cust2: ['cust8\n', 'moose\n', 'shannon\n'] 
-('Richard Adams', ' Watership Down\n') 
+Cust2: ['cust8\n', 'shannon\n'] 
 ('Laurie Halse Anderson', ' Speak\n') 
-('Isaac Asimov', ' Foundation Series\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('Tom Clancy', ' The Hunt for Red October\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Gibson', ' Neuromancer\n') 
 ('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Guy Gavriel Kay', ' The Summer Tree\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
@@ -85,35 +58,28 @@ Cust2: ['cust8\n', 'moose\n', 'shannon\n']
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Louis Sachar', ' Holes\n') 
 
-Francois: ['francois\n', 'megan\n', 'mike williams\n'] 
-('Suzanne Collins', ' The Hunger Games\n') 
+Francois: ['francois\n', 'megan\n'] 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Louis Sachar', ' Holes\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Jim C: ['andrew\n', 'jim c\n', 'mike\n'] 
-('Maya Angelou', ' I Know Why the Caged Bird Sings\n') 
+Jim C: ['jim c\n', 'mike\n'] 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Tom Clancy', ' The Hunt for Red October\n') 
 ('William Gibson', ' Neuromancer\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
-('H G Wells', ' The War Of The Worlds\n') 
 
-Iren: ['hidan\n', 'iren\n', 'shannon\n'] 
+Iren: ['hidan\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
@@ -129,8 +95,7 @@ Iren: ['hidan\n', 'iren\n', 'shannon\n']
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Jeff Smith', ' Bone Series\n') 
 
-Cust3: ['cust3\n', 'hidan\n', 'sidney\n'] 
-('Tom Clancy', ' The Hunt for Red October\n') 
+Cust3: ['cust3\n', 'sidney\n'] 
 ('William Golding', ' Lord of the Flies\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Yann Martel', ' Life of Pi\n') 
@@ -141,33 +106,23 @@ Cust3: ['cust3\n', 'hidan\n', 'sidney\n']
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 
-Cust4: ['cust4\n', 'nunu\n', 'rosanna\n'] 
+Cust4: ['cust4\n', 'rosanna\n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
-('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Louis Sachar', ' Holes\n') 
 
-Cust5: ['claire\n', 'cust5\n', 'mike\n'] 
+Cust5: ['claire\n', 'cust5\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
-('Isaac Asimov', ' Foundation Series\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('Tom Clancy', ' The Hunt for Red October\n') 
-('William Gibson', ' Neuromancer\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('Aldous Huxley', ' Brave New World\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
-('Yann Martel', ' Life of Pi\n') 
 ('Garth Nix', ' Sabriel\n') 
 ('Christopher Paolini', ' Eragon\n') 
 
-Cust6: ['cust6\n', 'cust8\n', 'keeled\n'] 
+Cust6: ['cust6\n', 'cust8\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('William Goldman', ' The Princess Bride\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
@@ -180,33 +135,25 @@ Cust6: ['cust6\n', 'cust8\n', 'keeled\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Cust7: ['cust7\n', 'megan\n', 'shannon\n'] 
+Cust7: ['cust7\n', 'megan\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Meg Cabot', ' The Princess Diaries\n') 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
-('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Louis Sachar', ' Holes\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 
-Cust8: ['cust8\n', 'roflol\n', 'shannon\n'] 
-('Orson Scott Card', " Ender's Game\n") 
+Cust8: ['cust8\n', 'shannon\n'] 
 ('Masashi Kishimoto', ' Naruto\n') 
 
-Cust9: ['cust9\n', 'mike\n', 'parseclaws\n'] 
-('Richard Adams', ' Watership Down\n') 
-('Mitch Albom', ' The Five People You Meet in Heaven\n') 
+Cust9: ['cust9\n', 'mike\n'] 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('William Gibson', ' Neuromancer\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Aldous Huxley', ' Brave New World\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
@@ -215,93 +162,62 @@ Cust9: ['cust9\n', 'mike\n', 'parseclaws\n']
 ('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
-('Louis Sachar', ' Holes\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 
-andrew: ['andrew\n', 'mike\n', 'moose\n'] 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('Cornelia Funke', ' Inkheart\n') 
+andrew: ['andrew\n', 'mike\n'] 
 ('Aldous Huxley', ' Brave New World\n') 
-('Guy Gavriel Kay', ' The Summer Tree\n') 
 
-ma: ['ma\n', 'nathan\n', 'rosanna\n'] 
-('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
+ma: ['ma\n', 'nathan\n'] 
 ('Cornelia Funke', ' Inkheart\n') 
 ('James Gurney', ' Dinotopia: A Land Apart from Time\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Louis Sachar', ' Holes\n') 
 
-matt c: ['ben\n', 'matt c\n', 'megan\n'] 
+matt c: ['ben\n', 'matt c\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Goldman', ' The Princess Bride\n') 
-('Masashi Kishimoto', ' Naruto\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Jeff Smith', ' Bone Series\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 ('Patricia C. Wrede', ' Dealing with Dragons\n') 
 
-Ocelot: ['mike\n', 'moose\n', 'ocelot\n'] 
-('Richard Adams', ' Watership Down\n') 
+Ocelot: ['mike\n', 'ocelot\n'] 
 ('Isaac Asimov', ' Foundation Series\n') 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('Cornelia Funke', ' Inkheart\n') 
-('Guy Gavriel Kay', ' The Summer Tree\n') 
 ('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-Cust10: ['andrew\n', 'cust10\n', 'mike\n'] 
-('Richard Adams', ' Watership Down\n') 
-('Maya Angelou', ' I Know Why the Caged Bird Sings\n') 
+Cust10: ['cust10\n', 'mike\n'] 
 ('Isaac Asimov', ' Foundation Series\n') 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-crom: ['andrew\n', 'crom\n', 'moose\n'] 
+crom: ['crom\n', 'moose\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
-('Maya Angelou', ' I Know Why the Caged Bird Sings\n') 
 ('Isaac Asimov', ' Foundation Series\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Tom Clancy', ' The Hunt for Red October\n') 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Gibson', ' Neuromancer\n') 
 ('Guy Gavriel Kay', ' The Summer Tree\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
-('Yann Martel', ' Life of Pi\n') 
-('Gary Paulsen', ' Hatchet\n') 
-('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
-('Art Spiegelman', " Maus: A Survivor's Tale\n") 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-joe: ['joe\n', 'megan\n', 'moose\n'] 
+joe: ['joe\n', 'megan\n'] 
 ('Richard Adams', ' Watership Down\n') 
-('Isaac Asimov', ' Foundation Series\n') 
-('Tom Clancy', ' The Hunt for Red October\n') 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Gibson', ' Neuromancer\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Guy Gavriel Kay', ' The Summer Tree\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
 ('Christopher Paolini', ' Eragon\n') 
@@ -309,31 +225,24 @@ joe: ['joe\n', 'megan\n', 'moose\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Priscilla: ['cust10\n', 'mike\n', 'priscilla\n'] 
+Priscilla: ['cust10\n', 'priscilla\n'] 
 ('William Gibson', ' Neuromancer\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
-('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
-('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
 
-Harry Potter: ['andrew\n', 'harry potter\n', 'parseclaws\n'] 
+Harry Potter: ['andrew\n', 'harry potter\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
-('Mitch Albom', ' The Five People You Meet in Heaven\n') 
 ('Maya Angelou', ' I Know Why the Caged Bird Sings\n') 
 ('Isaac Asimov', ' Foundation Series\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('William Gibson', ' Neuromancer\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('Aldous Huxley', ' Brave New World\n') 
 ('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
@@ -341,13 +250,11 @@ Harry Potter: ['andrew\n', 'harry potter\n', 'parseclaws\n']
 ('Yann Martel', ' Life of Pi\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
-('Louis Sachar', ' Holes\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-I. Ned: ['ben\n', 'claire\n', 'i. ned\n'] 
+I. Ned: ['ben\n', 'claire\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
@@ -371,49 +278,33 @@ I. Ned: ['ben\n', 'claire\n', 'i. ned\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('Patricia C. Wrede', ' Dealing with Dragons\n') 
 
-ender: ['ender\n', 'megan\n', 'mike\n'] 
+ender: ['ender\n', 'megan\n'] 
 ('Richard Adams', ' Watership Down\n') 
-('Tom Clancy', ' The Hunt for Red October\n') 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Gibson', ' Neuromancer\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Aldous Huxley', ' Brave New World\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Yann Martel', ' Life of Pi\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
-('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
-('Art Spiegelman', " Maus: A Survivor's Tale\n") 
 
-Apollo: ['apollo\n', 'mclean\n', 'parseclaws\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Richard Adams', ' Watership Down\n') 
+Apollo: ['apollo\n', 'mclean\n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Yann Martel', ' Life of Pi\n') 
 ('Christopher Paolini', ' Eragon\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Zax: ['megan\n', 'shannon\n', 'zax\n'] 
+Zax: ['shannon\n', 'zax\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('Cornelia Funke', ' Inkheart\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
@@ -421,24 +312,18 @@ Zax: ['megan\n', 'shannon\n', 'zax\n']
 ('Louis Sachar', ' Holes\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Jaluka: ['jaluka\n', 'mclean\n', 'parseclaws\n'] 
+Jaluka: ['jaluka\n', 'parseclaws\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Mitch Albom', ' The Five People You Meet in Heaven\n') 
-('Dan Brown', ' The Da Vinci Code\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
 ('Daniel Keyes', ' Flowers For Algernon\n') 
-('Yann Martel', ' Life of Pi\n') 
-('Christopher Paolini', ' Eragon\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
 ('Jeff Smith', ' Bone Series\n') 
-('J R R Tolkien', ' The Hobbit\n') 
-('John Wyndham', ' The Chrysalids') 
 
-Sanity: ['cust8\n', 'sanity\n', 'sidney\n'] 
+Sanity: ['cust8\n', 'sanity\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
@@ -446,7 +331,6 @@ Sanity: ['cust8\n', 'sanity\n', 'sidney\n']
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
@@ -455,44 +339,35 @@ Sanity: ['cust8\n', 'sanity\n', 'sidney\n']
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Louis Sachar', ' Holes\n') 
-('Shueisha', ' Shonen Jump Series\n') 
 ('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Brix: ['douglas anderson\n', 'parseclaws\n', 'priscilla\n'] 
+Brix: ['douglas anderson\n', 'priscilla\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Richard Adams', ' Watership Down\n') 
-('Mitch Albom', ' The Five People You Meet in Heaven\n') 
 ('Isaac Asimov', ' Foundation Series\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Tom Clancy', ' The Hunt for Red October\n') 
 ('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Alice Hoffman', ' Practical Magic\n') 
 ('Daniel Keyes', ' Flowers For Algernon\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Yann Martel', ' Life of Pi\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 
-sage32: ['douglas anderson\n', 'sage32\n', 'tiffany\n'] 
+sage32: ['sage32\n', 'tiffany\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('Cornelia Funke', ' Inkheart\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
-('Christopher Paolini', ' Eragon\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
@@ -501,27 +376,19 @@ sage32: ['douglas anderson\n', 'sage32\n', 'tiffany\n']
 ('Eric Walters', ' Shattered\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-clipper: ['claire\n', 'clipper\n', 'mike\n'] 
+clipper: ['claire\n', 'clipper\n'] 
 ('Richard Adams', ' Watership Down\n') 
-('Isaac Asimov', ' Foundation Series\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('Tom Clancy', ' The Hunt for Red October\n') 
-('William Gibson', ' Neuromancer\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('Aldous Huxley', ' Brave New World\n') 
 ('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
 ('Garth Nix', ' Sabriel\n') 
-('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Louis Sachar', ' Holes\n') 
-('Art Spiegelman', " Maus: A Survivor's Tale\n") 
 
-YJAM: ['megan\n', 'shannon\n', 'yjam\n'] 
+YJAM: ['megan\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
@@ -538,46 +405,33 @@ YJAM: ['megan\n', 'shannon\n', 'yjam\n']
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Jeff Smith', ' Bone Series\n') 
 
-Martin: ['clipper\n', 'martin\n', 'reuven\n'] 
+Martin: ['clipper\n', 'martin\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Libba Bray', ' A Great and Terrible Beauty\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Yann Martel', ' Life of Pi\n') 
-('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Amy Tan', ' The Joy Luck Club\n') 
-('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
 
-Mike: ['andrew\n', 'mike\n', 'moose\n'] 
+Mike: ['andrew\n', 'mike\n'] 
 ('Richard Adams', ' Watership Down\n') 
 ('Maya Angelou', ' I Know Why the Caged Bird Sings\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('Guy Gavriel Kay', ' The Summer Tree\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Strongbad: ['clipper\n', 'james\n', 'strongbad\n'] 
+Strongbad: ['james\n', 'strongbad\n'] 
 ('Isaac Asimov', ' Foundation Series\n') 
-('Libba Bray', ' A Great and Terrible Beauty\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Louis Sachar', ' Holes\n') 
-('Amy Tan', ' The Joy Luck Club\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
 
-Brian: ['cust8\n', 'douglas anderson\n', 'roflol\n'] 
+Brian: ['cust8\n', 'douglas anderson\n'] 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
@@ -589,14 +443,12 @@ Brian: ['cust8\n', 'douglas anderson\n', 'roflol\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Douglas Anderson: ['cust8\n', 'douglas anderson\n', 'roflol\n'] 
+Douglas Anderson: ['cust8\n', 'douglas anderson\n'] 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
@@ -608,23 +460,18 @@ Douglas Anderson: ['cust8\n', 'douglas anderson\n', 'roflol\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-chrispeh: ['cedric jones\n', 'joshua\n', 'leslie\n'] 
+chrispeh: ['joshua\n', 'leslie\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Tom Clancy', ' The Hunt for Red October\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Christopher Paolini', ' Eragon\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-Rudy A: ['claire\n', 'cust8\n', 'mike williams\n'] 
+Rudy A: ['cust8\n', 'mike williams\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Richard Adams', ' Watership Down\n') 
 ('Mitch Albom', ' The Five People You Meet in Heaven\n') 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Isaac Asimov', ' Foundation Series\n') 
@@ -636,13 +483,11 @@ Rudy A: ['claire\n', 'cust8\n', 'mike williams\n']
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Yann Martel', ' Life of Pi\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
-('Garth Nix', ' Sabriel\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
@@ -653,57 +498,35 @@ Rudy A: ['claire\n', 'cust8\n', 'mike williams\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-McLovin: ['mclovin\n', 'narwhals\n', 'shannon\n'] 
+McLovin: ['mclovin\n', 'narwhals\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
-('Cornelia Funke', ' Inkheart\n') 
 ('William Gibson', ' Neuromancer\n') 
-('William Goldman', ' The Princess Bride\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
 ('Garth Nix', ' Sabriel\n') 
 ('Christopher Paolini', ' Eragon\n') 
-('Jodi Picoult', " My Sister's Keeper\n") 
-('Philip Pullman', ' The Golden Compass\n') 
-('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-Mike Williams: ['cust6\n', 'cust8\n', 'mike williams\n'] 
+Mike Williams: ['cust6\n', 'mike williams\n'] 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Jay Asher', ' Thirteen Reasons Why\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Libba Bray', ' A Great and Terrible Beauty\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('William Goldman', ' The Princess Bride\n') 
-('Tite Kubo', ' Bleach (graphic novel)\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
-('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
 ('Garth Nix', ' Sabriel\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
-('Jeff Smith', ' Bone Series\n') 
-('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
 
-Dude: ['ben\n', 'cust8\n', 'dude\n'] 
+Dude: ['cust8\n', 'dude\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('John Flanagan', " Ranger's Apprentice Series\n") 
 ('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Will Hobbs', ' Far North\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
@@ -712,37 +535,26 @@ Dude: ['ben\n', 'cust8\n', 'dude\n']
 ('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
-('Neil Shusterman', ' The Shadow Club\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('Eric Walters', ' Shattered\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
-('Patricia C. Wrede', ' Dealing with Dragons\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Hideo: ['cust8\n', 'hideo\n', 'roflol\n'] 
+Hideo: ['hideo\n', 'roflol\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Laurie Halse Anderson', ' Speak\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
-('Tite Kubo', ' Bleach (graphic novel)\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
-('Jeff Smith', ' Bone Series\n') 
-('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
 
-Rudy Ann: ['hideo\n', 'roflol\n', 'shannon\n'] 
+Rudy Ann: ['roflol\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
@@ -763,14 +575,10 @@ Rudy Ann: ['hideo\n', 'roflol\n', 'shannon\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Don Wang: ['ben\n', 'hidan\n', 'mclean\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
+Don Wang: ['hidan\n', 'mclean\n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('John Flanagan', " Ranger's Apprentice Series\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('Will Hobbs', ' Far North\n') 
 ('Aldous Huxley', ' Brave New World\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
@@ -778,20 +586,12 @@ Don Wang: ['ben\n', 'hidan\n', 'mclean\n']
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Yann Martel', ' Life of Pi\n') 
 ('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
-('Gary Paulsen', ' Hatchet\n') 
-('Philip Pullman', ' The Golden Compass\n') 
 ('Shueisha', ' Shonen Jump Series\n') 
-('Neil Shusterman', ' The Shadow Club\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('Eric Walters', ' Shattered\n') 
-('H G Wells', ' The War Of The Worlds\n') 
-('Patricia C. Wrede', ' Dealing with Dragons\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Anna-Carol: ['cust8\n', 'megan\n', 'roflol\n'] 
+Anna-Carol: ['cust8\n', 'roflol\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Richard Adams', ' Watership Down\n') 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
@@ -813,14 +613,12 @@ Anna-Carol: ['cust8\n', 'megan\n', 'roflol\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-SubRia: ['cust8\n', 'roflol\n', 'subria\n'] 
+SubRia: ['cust8\n', 'subria\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('William Goldman', ' The Princess Bride\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
@@ -832,15 +630,13 @@ SubRia: ['cust8\n', 'roflol\n', 'subria\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Ella: ['ella\n', 'roflol\n', 'shannon\n'] 
+Ella: ['ella\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Christopher Paolini', ' Eragon\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Jeff Smith', ' Bone Series\n') 
@@ -848,30 +644,24 @@ Ella: ['ella\n', 'roflol\n', 'shannon\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Leslie: ['leslie\n', 'narwhals\n', 'roflol\n'] 
+Leslie: ['leslie\n', 'roflol\n'] 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Gibson', ' Neuromancer\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
-('Garth Nix', ' Sabriel\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 
-Sam: ['leslie\n', 'matt c\n', 'shannon\n'] 
+Sam: ['leslie\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('John Flanagan', " Ranger's Apprentice Series\n") 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Will Hobbs', ' Far North\n') 
-('Guy Gavriel Kay', ' The Summer Tree\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
@@ -882,21 +672,18 @@ Sam: ['leslie\n', 'matt c\n', 'shannon\n']
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
-('Neil Shusterman', ' The Shadow Club\n') 
 ('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('Eric Walters', ' Shattered\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Cedric Jones: ['cedric jones\n', 'cust8\n', 'shannon\n'] 
+Cedric Jones: ['cedric jones\n', 'cust8\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
@@ -910,14 +697,10 @@ Cedric Jones: ['cedric jones\n', 'cust8\n', 'shannon\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Don Wang: ['ben\n', 'hidan\n', 'mclean\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
+Don Wang: ['hidan\n', 'mclean\n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('John Flanagan', " Ranger's Apprentice Series\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('Will Hobbs', ' Far North\n') 
 ('Aldous Huxley', ' Brave New World\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
@@ -925,26 +708,17 @@ Don Wang: ['ben\n', 'hidan\n', 'mclean\n']
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Yann Martel', ' Life of Pi\n') 
 ('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
-('Gary Paulsen', ' Hatchet\n') 
-('Philip Pullman', ' The Golden Compass\n') 
 ('Shueisha', ' Shonen Jump Series\n') 
-('Neil Shusterman', ' The Shadow Club\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('Eric Walters', ' Shattered\n') 
-('H G Wells', ' The War Of The Worlds\n') 
-('Patricia C. Wrede', ' Dealing with Dragons\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-McLean: ['cust8\n', 'douglas anderson\n', 'mclean\n'] 
+McLean: ['cust8\n', 'mclean\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
@@ -956,34 +730,13 @@ McLean: ['cust8\n', 'douglas anderson\n', 'mclean\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Shannon: ['cust8\n', 'roflol\n', 'shannon\n'] 
-('Laurie Halse Anderson', ' Speak\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
+Shannon: ['roflol\n', 'shannon\n'] 
 ('Orson Scott Card', " Ender's Game\n") 
-('William Golding', ' Lord of the Flies\n') 
-('Tite Kubo', ' Bleach (graphic novel)\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Gary Paulsen', ' Hatchet\n') 
-('John Wyndham', ' The Chrysalids') 
 
-Joshua: ['albus dumbledore\n', 'joshua\n', 'tiffany\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Dan Brown', ' The Da Vinci Code\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('Cornelia Funke', ' Inkheart\n') 
-('William Goldman', ' The Princess Bride\n') 
-('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Gary Paulsen', ' Hatchet\n') 
-('Jodi Picoult', " My Sister's Keeper\n") 
-('Philip Pullman', ' The Golden Compass\n') 
-('Louis Sachar', ' Holes\n') 
-('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
-('Eric Walters', ' Shattered\n') 
-('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
+Joshua: ['albus dumbledore\n', 'joshua\n'] 
 
-Jeremy: ['alexandra\n', 'roflol\n', 'shannon\n'] 
+Jeremy: ['roflol\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Orson Scott Card', " Ender's Game\n") 
@@ -1002,13 +755,12 @@ Jeremy: ['alexandra\n', 'roflol\n', 'shannon\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Pablo Sanchez: ['ben\n', 'hidan\n', 'sidney\n'] 
+Pablo Sanchez: ['ben\n', 'hidan\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Tom Clancy', ' The Hunt for Red October\n') 
 ('John Flanagan', " Ranger's Apprentice Series\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Will Hobbs', ' Far North\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
@@ -1025,37 +777,16 @@ Pablo Sanchez: ['ben\n', 'hidan\n', 'sidney\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('Patricia C. Wrede', ' Dealing with Dragons\n') 
 
-Scream: ['albus dumbledore\n', 'joshua\n', 'scream\n'] 
+Scream: ['joshua\n', 'scream\n'] 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 
-ROFLOL: ['cust8\n', 'roflol\n', 'shannon\n'] 
-('Laurie Halse Anderson', ' Speak\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
-('William Golding', ' Lord of the Flies\n') 
-('Tite Kubo', ' Bleach (graphic novel)\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
+ROFLOL: ['roflol\n', 'shannon\n'] 
 ('Jeff Smith', ' Bone Series\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
 
-Albus Dumbledore: ['albus dumbledore\n', 'joshua\n', 'tiffany\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Dan Brown', ' The Da Vinci Code\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('Cornelia Funke', ' Inkheart\n') 
-('William Goldman', ' The Princess Bride\n') 
-('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Gary Paulsen', ' Hatchet\n') 
-('Jodi Picoult', " My Sister's Keeper\n") 
-('Philip Pullman', ' The Golden Compass\n') 
-('Louis Sachar', ' Holes\n') 
-('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
-('Eric Walters', ' Shattered\n') 
-('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
+Albus Dumbledore: ['albus dumbledore\n', 'joshua\n'] 
 
-Alexandra: ['alexandra\n', 'roflol\n', 'shannon\n'] 
+Alexandra: ['roflol\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Orson Scott Card', " Ender's Game\n") 
@@ -1074,66 +805,49 @@ Alexandra: ['alexandra\n', 'roflol\n', 'shannon\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-NaRwHaLs: ['megan\n', 'narwhals\n', 'roflol\n'] 
-('Richard Adams', ' Watership Down\n') 
+NaRwHaLs: ['narwhals\n', 'roflol\n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-J-Rok: ['j-rok\n', 'leslie\n', 'narwhals\n'] 
+J-Rok: ['j-rok\n', 'leslie\n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('William Gibson', ' Neuromancer\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
-('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
-('Garth Nix', ' Sabriel\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Louis Sachar', ' Holes\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 
-snoosh: ['roflol\n', 'snoosh\n', 'tiffany\n'] 
+snoosh: ['snoosh\n', 'tiffany\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
 ('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Eric Walters', ' Shattered\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Huxil: ['cust8\n', 'megan\n', 'roflol\n'] 
+Huxil: ['megan\n', 'roflol\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
-('Laurie Halse Anderson', ' Speak\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
-('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
@@ -1143,56 +857,31 @@ Huxil: ['cust8\n', 'megan\n', 'roflol\n']
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
-('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
 
-hidan: ['cust8\n', 'hidan\n', 'sidney\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Laurie Halse Anderson', ' Speak\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
-('Dan Brown', ' The Da Vinci Code\n') 
-('Meg Cabot', ' The Princess Diaries\n') 
+hidan: ['hidan\n', 'sidney\n'] 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('William Goldman', ' The Princess Bride\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
 ('Gary Paulsen', ' Hatchet\n') 
-('Jodi Picoult', " My Sister's Keeper\n") 
-('Philip Pullman', ' The Golden Compass\n') 
 ('Jeff Smith', ' Bone Series\n') 
-('H G Wells', ' The War Of The Worlds\n') 
-('John Wyndham', ' The Chrysalids') 
 
-Leah: ['megan\n', 'sidney\n', 'zachary\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Richard Adams', ' Watership Down\n') 
-('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
+Leah: ['sidney\n', 'zachary\n'] 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('William Goldman', ' The Princess Bride\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
 ('Yann Martel', ' Life of Pi\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Gary Paulsen', ' Hatchet\n') 
-('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
 ('Shueisha', ' Shonen Jump Series\n') 
 ('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-Boxxy: ['boxxy\n', 'cust8\n', 'sidney\n'] 
+Boxxy: ['boxxy\n', 'cust8\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
@@ -1201,7 +890,6 @@ Boxxy: ['boxxy\n', 'cust8\n', 'sidney\n']
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
@@ -1210,21 +898,19 @@ Boxxy: ['boxxy\n', 'cust8\n', 'sidney\n']
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Louis Sachar', ' Holes\n') 
-('Shueisha', ' Shonen Jump Series\n') 
 ('Jeff Smith', ' Bone Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Rosanna: ['roflol\n', 'rosanna\n', 'shannon\n'] 
+Rosanna: ['rosanna\n', 'shannon\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Christopher Paolini', ' Eragon\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('Jeff Smith', ' Bone Series\n') 
@@ -1232,10 +918,9 @@ Rosanna: ['roflol\n', 'rosanna\n', 'shannon\n']
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 
-Claire: ['claire\n', 'cust8\n', 'tiffany\n'] 
+Claire: ['claire\n', 'cust8\n'] 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
 ('Cornelia Funke', ' Inkheart\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
@@ -1243,85 +928,48 @@ Claire: ['claire\n', 'cust8\n', 'tiffany\n']
 ('Stephenie Meyer', ' Twilight Series\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Jeff Smith', ' Bone Series\n') 
-('Eric Walters', ' Shattered\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-David: ['claire\n', 'david\n', 'strongbad\n'] 
+David: ['david\n', 'strongbad\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Richard Adams', ' Watership Down\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
-('Dan Brown', ' The Da Vinci Code\n') 
-('William Golding', ' Lord of the Flies\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Yann Martel', ' Life of Pi\n') 
-('Garth Nix', ' Sabriel\n') 
-('Christopher Paolini', ' Eragon\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
-('Louis Sachar', ' Holes\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
-('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
 
-Zachary: ['hidan\n', 'roflol\n', 'zachary\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Dan Brown', ' The Da Vinci Code\n') 
-('Meg Cabot', ' The Princess Diaries\n') 
-('Orson Scott Card', " Ender's Game\n") 
+Zachary: ['hidan\n', 'zachary\n'] 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('Cornelia Funke', ' Inkheart\n') 
-('William Goldman', ' The Princess Bride\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
 ('Yann Martel', ' Life of Pi\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
-('Gary Paulsen', ' Hatchet\n') 
-('Jodi Picoult', " My Sister's Keeper\n") 
-('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 
-ParseClaws: ['andrew\n', 'cust10\n', 'parseclaws\n'] 
-('Maya Angelou', ' I Know Why the Caged Bird Sings\n') 
-('Isaac Asimov', ' Foundation Series\n') 
-('Tom Clancy', ' The Hunt for Red October\n') 
+ParseClaws: ['cust10\n', 'parseclaws\n'] 
 ('William Gibson', ' Neuromancer\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
 ('Yann Martel', ' Life of Pi\n') 
-('Gary Paulsen', ' Hatchet\n') 
-('Philip Pullman', ' The Golden Compass\n') 
 ('Art Spiegelman', " Maus: A Survivor's Tale\n") 
-('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-Tiffany: ['claire\n', 'cust8\n', 'tiffany\n'] 
-('Richard Adams', ' Watership Down\n') 
+Tiffany: ['cust8\n', 'tiffany\n'] 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('William Golding', ' Lord of the Flies\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
 ('Stephenie Meyer', ' Twilight Series\n') 
-('Garth Nix', ' Sabriel\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Jeff Smith', ' Bone Series\n') 
 
-Sidney: ['cust8\n', 'hidan\n', 'sidney\n'] 
+Sidney: ['cust8\n', 'sidney\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Laurie Halse Anderson', ' Speak\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Tom Clancy', ' The Hunt for Red October\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
@@ -1332,18 +980,11 @@ Sidney: ['cust8\n', 'hidan\n', 'sidney\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Tony  : ['moose\n', 'tiffany\n', 'tony  \n'] 
-('Richard Adams', ' Watership Down\n') 
-('Isaac Asimov', ' Foundation Series\n') 
+Tony  : ['tiffany\n', 'tony  \n'] 
 ('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
-('Tom Clancy', ' The Hunt for Red October\n') 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Gibson', ' Neuromancer\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Guy Gavriel Kay', ' The Summer Tree\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
@@ -1352,42 +993,29 @@ Tony  : ['moose\n', 'tiffany\n', 'tony  \n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Mark: ['joe\n', 'mark\n', 'megan\n'] 
-('Cornelia Funke', ' Inkheart\n') 
+Mark: ['joe\n', 'mark\n'] 
 ('William Golding', ' Lord of the Flies\n') 
-('William Goldman', ' The Princess Bride\n') 
 ('Alice Hoffman', ' Practical Magic\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
-('Robert Ludlum', ' The Bourne Series\n') 
-('Stephenie Meyer', ' Twilight Series\n') 
 ('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
-('Louis Sachar', ' Holes\n') 
 ('Shueisha', ' Shonen Jump Series\n') 
 ('J R R Tolkien', ' The Hobbit\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
-('H G Wells', ' The War Of The Worlds\n') 
 
-NuNu: ['cust6\n', 'cust8\n', 'megan\n'] 
+NuNu: ['cust8\n', 'megan\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Richard Adams', ' Watership Down\n') 
-('Mitch Albom', ' The Five People You Meet in Heaven\n') 
 ('Laurie Halse Anderson', ' Speak\n') 
-('Jay Asher', ' Thirteen Reasons Why\n') 
-('Isaac Asimov', ' Foundation Series\n') 
 ('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
-('Libba Bray', ' A Great and Terrible Beauty\n') 
 ('Dan Brown', ' The Da Vinci Code\n') 
 ('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
-('Tom Clancy', ' The Hunt for Red October\n') 
 ('William Goldman', ' The Princess Bride\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Robert Ludlum', ' The Bourne Series\n') 
-('Garth Nix', ' Sabriel\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
@@ -1398,11 +1026,10 @@ NuNu: ['cust6\n', 'cust8\n', 'megan\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Hamza ALi: ['mike williams\n', 'nathan\n', 'rosanna\n'] 
+Hamza ALi: ['mike williams\n', 'nathan\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Mitch Albom', ' The Five People You Meet in Heaven\n') 
 ('Isaac Asimov', ' Foundation Series\n') 
-('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Suzanne Collins', ' The Hunger Games\n') 
 ('William Golding', ' Lord of the Flies\n') 
@@ -1410,29 +1037,19 @@ Hamza ALi: ['mike williams\n', 'nathan\n', 'rosanna\n']
 ('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 
-dencellia: ['dencellia\n', 'hidan\n', 'joe\n'] 
-('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
-('Dan Brown', ' The Da Vinci Code\n') 
-('Orson Scott Card', " Ender's Game\n") 
+dencellia: ['dencellia\n', 'hidan\n'] 
 ('Tom Clancy', ' The Hunt for Red October\n') 
-('F. Scott Fitzgerald', ' The Great Gatsby\n') 
-('William Golding', ' Lord of the Flies\n') 
-('Alice Hoffman', ' Practical Magic\n') 
 ('Masashi Kishimoto', ' Naruto\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
 ('Yann Martel', ' Life of Pi\n') 
-('George Orwell', ' Nineteen Eighty-Four (1984)\n') 
 ('Christopher Paolini', ' Eragon\n') 
-('Philip Pullman', ' The Golden Compass\n') 
 ('Louis Sachar', ' Holes\n') 
 ('J R R Tolkien', ' The Lord of the Rings\n') 
 
-Nathan: ['mike williams\n', 'nathan\n', 'rosanna\n'] 
+Nathan: ['mike williams\n', 'nathan\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('Mitch Albom', ' The Five People You Meet in Heaven\n') 
 ('Isaac Asimov', ' Foundation Series\n') 
-('Meg Cabot', ' The Princess Diaries\n') 
 ('Orson Scott Card', " Ender's Game\n") 
 ('Suzanne Collins', ' The Hunger Games\n') 
 ('William Golding', ' Lord of the Flies\n') 
@@ -1440,32 +1057,23 @@ Nathan: ['mike williams\n', 'nathan\n', 'rosanna\n']
 ('Gary Paulsen', ' Hatchet\n') 
 ('Philip Pullman', ' The Golden Compass\n') 
 
-James: ['ben\n', 'claire\n', 'james\n'] 
-('Richard Adams', ' Watership Down\n') 
-('Ann Brashares', ' The Sisterhood of the Travelling Pants\n') 
-('Dan Brown', ' The Da Vinci Code\n') 
+James: ['ben\n', 'james\n'] 
 ('Orson Scott Card', " Ender's Game\n") 
 ('John Flanagan', " Ranger's Apprentice Series\n") 
 ('Cornelia Funke', ' Inkheart\n') 
-('William Golding', ' Lord of the Flies\n') 
 ('Will Hobbs', ' Far North\n') 
-('Daniel Keyes', ' Flowers For Algernon\n') 
-('Harper Lee', ' To Kill a Mockingbird\n') 
-('Garth Nix', ' Sabriel\n') 
 ('Christopher Paolini', ' Eragon\n') 
 ('J.K. Rowling', ' Harry Potter Series\n') 
 ('Neil Shusterman', ' The Shadow Club\n') 
 ('Jeff Smith', ' Bone Series\n') 
-('J R R Tolkien', ' The Lord of the Rings\n') 
 ('Eric Walters', ' Shattered\n') 
 ('H G Wells', ' The War Of The Worlds\n') 
 ('Patricia C. Wrede', ' Dealing with Dragons\n') 
 
-KeeLed: ['cust8\n', 'keeled\n', 'shannon\n'] 
+KeeLed: ['cust8\n', 'keeled\n'] 
 ('Douglas Adams', " The Hitchhiker's Guide To The Galaxy\n") 
 ('William Golding', ' Lord of the Flies\n') 
 ('William Goldman', ' The Princess Bride\n') 
-('Masashi Kishimoto', ' Naruto\n') 
 ('Tite Kubo', ' Bleach (graphic novel)\n') 
 ('Harper Lee', ' To Kill a Mockingbird\n') 
 ('C S Lewis', ' The Lion the Witch and the Wardrobe\n') 
@@ -1476,9 +1084,8 @@ KeeLed: ['cust8\n', 'keeled\n', 'shannon\n']
 ('H G Wells', ' The War Of The Worlds\n') 
 ('John Wyndham', ' The Chrysalids') 
 
-Megan: ['megan\n', 'roflol\n', 'shannon\n'] 
+Megan: ['megan\n', 'shannon\n'] 
 ('Meg Cabot', ' The Princess Diaries\n') 
-('Gary Paulsen', ' Hatchet\n') 
 ('Jodi Picoult', " My Sister's Keeper\n") 
 ('Jeff Smith', ' Bone Series\n') 
 
