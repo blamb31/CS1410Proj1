@@ -1,92 +1,89 @@
 #%%
 
-from string import Template
-
-books = open('booklist.txt', 'r')
-
-booklist = []
-
 # create the booklist
 
-for line in books:
-    book = line.split(',')
-    booklist.append(book)
+def createBooksList() :
+    books = open('booklist.txt', 'r')
+    returnList = []
+    for line in books:
+        book = line.split(',')
+        returnList.append(book)
+    # print(returnList)
+    return returnList
 
 
-peopleDict = {}
-nameList = []
-ratingList = []
 
 # create the namelist and ratingList
 
+def createRatingsList() :
+    returnList = []
+    peopleRating = open('ratings.txt', 'r')
+    for line in peopleRating:
+        if len(line) > 30:
+            returnList.append(line)
+    return returnList
 
-peopleRating = open('ratings.txt', 'r')
-for line in peopleRating:
-    if len(line) > 30:
-        ratingList.append(line)
-    else:
-        nameList.append(line)
+def createNamesList():
+    returnList = []
+    peopleRating = open('ratings.txt', 'r')
+    for line in peopleRating:
+        if len(line) < 30:
+            returnList.append(line)
+    return returnList
+
+
 
 # create the peopleDict
 
-h = 0
-positiveRatingsDict = {}
-# print(ratingList[0].split()[1])
-# while h < len(booklist) :
-#     bookName = booklist[h][0] + ', ' + booklist[h][1]
-#     # print(bookName)
-#     j = 0
-#     while j < len(ratingList[j].split()) :
-#         if int(ratingList[j].split()[h]) > 0:
-#             bookRatings[bookName] = ratingList[j].split()[h]
-        
-#         # print(bookRatings)
-#         k = 0
-#         while k < len(nameList):
-#             peopleRatingsDict[nameList[k].lower()] = bookRatings
-#             k +=1
-           
-#         j += 1
-#     # print(peopleDict[nameList[i]])
-#     h += 1
-# print(nameList)
-# print(booklist)
-# print(ratingList)
-while h < len(nameList) :
-    personName = nameList[h]
-    # print(bookName)
-    k = 0
-    bookRatingList = ratingList[h].split()
-    bookRatings = {}
-    # print(bookRatingList)
-    while k < len(booklist):
-        bookName = booklist[k][0] + ', ' + booklist[k][1]
-        bookRating = bookRatingList[k]
-        # print(bookRating)
-        if int(bookRating) > 2:
-            # print(bookName, bookRating)
-            bookRatings[bookName] = bookRating
-            positiveRatingsDict[personName.lower()] = bookRatings
-            # print(bookName, bookRatings[bookName])
-            # print(bookRatings)
-        k +=1
-    # positiveRatingsDict[personName.lower()] = bookRatings
-    # print(personName.lower(), positiveRatingsDict[personName.lower()])
-    # print(peopleDict[nameList[i]])
-    h += 1
+def createPeopleDict() :
+    peopleDict = {}
+    nameList = createNamesList()
+    ratingList = createRatingsList()
+    i = 0
+    while i < len(nameList):
+        peopleDict[nameList[i]] = ratingList[i].split()
+        i += 1
+    return peopleDict
 
-# print(positiveRatingsDict['joe\n'])
+
+def createPositiveRatingsDict():
+    h = 0
+    positiveRatingsDict = {}
+    nameList = createNamesList()
+    ratingList = createRatingsList()
+    booklist = createBooksList()
+
+    while h < len(nameList) :
+        personName = nameList[h]
+        k = 0
+        bookRatingList = ratingList[h].split()
+        bookRatings = {}
+
+        while k < len(booklist):
+            bookName = booklist[k][0] + ', ' + booklist[k][1]
+            bookRating = bookRatingList[k]
+
+            if int(bookRating) > 2:
+                bookRatings[bookName] = bookRating
+                positiveRatingsDict[personName.lower()] = bookRatings
+
+            k +=1
+        h += 1
+
+    print(positiveRatingsDict)
+    
+    return positiveRatingsDict
 
 
 
-i = 0
 
-while i < len(nameList):
-    peopleDict[nameList[i]] = ratingList[i].split()
-    i += 1
+
 
 
 def friends(name, nfriends = 2):
+    peopleDict = createPeopleDict()
+
+
     nameRatings = peopleDict[name]
     matchStrength = {}
     for key in peopleDict:
@@ -106,14 +103,18 @@ def friends(name, nfriends = 2):
         friendsList.extend([friendsTuple[k][1].lower()])
         k += 1
     friendsList.sort()
+
     return(friendsList)
 
-compiledRecommendations = {}
-friendsNames = {}
 def recommend(name, nfriends = 2) :
+    friendsNames = {}
+    compiledRecommendations = {}
+
     names = friends(name, nfriends)
     friendsNames[name] = names
-    # print('names: ', names)
+    positiveRatingsDict = createPositiveRatingsDict()
+
+
     i = 0
     otherUsersBooks = []
     userBooks = []
@@ -127,11 +128,8 @@ def recommend(name, nfriends = 2) :
     recommendedBooks = []
     i = 0
     while i < len(otherUsersBooks):
-        # print(otherUsersBooks[i])
         selectedBook = otherUsersBooks[i]
-        # print(tuple(selectedBook.split(',')))
-        # print(userBooks)
-        # print(recommendedBooks)
+
         if selectedBook not in userBooks and tuple(selectedBook.split(',')) not in recommendedBooks:
             recommendedBooks.append(tuple(selectedBook.split(',')))
         i+=1
@@ -139,33 +137,52 @@ def recommend(name, nfriends = 2) :
     sortedRecommendedBooks = sorted(recommendedBooks, key=lambda x: x[0].split()[-1])
     compiledRecommendations[name] = sortedRecommendedBooks
 
-    # output.write(outputLine1.substitute(name=name, friends=names))
-    
-    # outputBookLine = Template('$bookline \n') 
-
-    # for line in sortedRecommendedBooks:
-    #     output.write(outputBookLine.substitute(bookline=line))
-
-    # print('mine', userBooks)
-    # for friendsBook in friendsBooks:
-    #     print(friendsBook)
-    #     for userBook in userBooks:
-
-    # print(name, userBooks)
+    return compiledRecommendations
 
 
 def main(nfriends = 2) :
+    # from string import Template
+
+    # output = open('recommendations.txt', 'w')
+
+    # nameList = createNamesList()
+    # name = nameList[-1]
+    # # print(name)
+    
+    # friendsNames = friends(name)
+    # compiledRecommendations = recommend(name, nfriends)
+    # outputLine1 = Template('$name: $friends \n')
+    # output.write(outputLine1.substitute(name=name[:-1], friends=friendsNames))
+    # outputBookLine = Template('$bookline \n')
+    # for book in compiledRecommendations[name]: 
+    #     output.write(outputBookLine.substitute(bookline=book))  
+    # output.write('\n')
+    
+    from string import Template
+
     output = open('recommendations.txt', 'w')
+
+    nameList = createNamesList()
+
     for name in nameList:
-        recommend(name, nfriends)
+        friendsNames = friends(name)
+        # print(friendsNames)
+
+        compiledRecommendations = recommend(name, nfriends)
+        # print(compiledRecommendations)
         outputLine1 = Template('$name: $friends \n')
-        output.write(outputLine1.substitute(name=name[:-1], friends=friendsNames[name]))
+        output.write(outputLine1.substitute(name=name[:-1], friends=friendsNames))
         outputBookLine = Template('$bookline \n')
         for book in compiledRecommendations[name]: 
             output.write(outputBookLine.substitute(bookline=book))  
         output.write('\n')
-    print(compiledRecommendations)
+    # print(compiledRecommendations)
 
 
-main(3)
-# recommend(SubRia)
+main()
+# recommend('Megan')
+
+
+
+
+
